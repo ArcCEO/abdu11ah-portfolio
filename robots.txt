@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tb-0001
+
+Sitemap: https://abdullahsaliu.com/sitemap.xml
