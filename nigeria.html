@@ -31,8 +31,8 @@
   VIDEO: near the bottom of this file, find  var VIDEO_URL = ""  and paste your Loom, YouTube or
   Vimeo link between the quotes. Until you do, the video section stays hidden.
 
-  EXAMPLES: the Examples section stays hidden until you set  var SHOW_EXAMPLES = true.
-  Before you do, search this file for the word EDIT and check every item that has it.
+  EXAMPLES: the Examples section is on. To hide it, set  var SHOW_EXAMPLES = false.
+  Search this file for the word EDIT and check every item that has it.
 
   Brand tokens are the same as /contractors: Switzer type, greys #fafafa to #000, accent green #21b30b.
 -->
@@ -748,8 +748,8 @@ details .ans{padding:0 50px 24px 0;color:var(--g700);font-size:17px;line-height:
   /* ============ SETTINGS ============ */
   /* Paste your Loom, YouTube or Vimeo link between the quotes to show the video section. */
   var VIDEO_URL = "";
-  /* Set to true once you have added real screenshots and demo links in the Examples section. */
-  var SHOW_EXAMPLES = false;
+  /* The Examples section is on. Set to false to hide it (and its nav link). */
+  var SHOW_EXAMPLES = true;
   /* =================================== */
 
   var root=document.documentElement, motion=root.classList.contains('js');
