@@ -24,7 +24,7 @@
   OFFER PAGE: /professional-firms
   Lives at /professional-firms (the site uses clean URLs, so this file is served without ".html").
 
-  IMAGES live in /assets/professional-firms/. Use plain names such as clinic-1.jpg. The page also
+  IMAGES live in /assets/work/. Use plain lowercase names such as aegis-1.jpg. The page also
   tries .png, .webp and .jpeg, so a format mix-up will not break a slide.
   Any missing image falls back to a wireframe.
 
@@ -32,7 +32,7 @@
   Vimeo link between the quotes. Until you do, the video section stays hidden.
 
   EXAMPLES: the Examples section stays hidden until you set  var SHOW_EXAMPLES = true.
-  Before you do, search this file for the word EDIT and replace every item that has it.
+  Before you do, search this file for the word EDIT and check every item that has it.
 
   Brand tokens are the same as /contractors: Switzer type, greys #fafafa to #000, accent green #21b30b.
 -->
@@ -456,8 +456,8 @@ details .ans{padding:0 50px 24px 0;color:var(--g700);font-size:17px;line-height:
         </ul>
       </div>
       <div class="stack" aria-hidden="true">
-        <div class="tilt a"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/professional-firms/aegis-1" alt="" loading="eager"></div></div>
-        <div class="tilt b"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/professional-firms/consulting-1" alt="" loading="eager"></div></div>
+        <div class="tilt a"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/work/aegis-1" alt="" loading="eager"></div></div>
+        <div class="tilt b"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/work/valta-1" alt="" loading="eager"></div></div>
       </div>
     </div>
   </section>
@@ -583,62 +583,63 @@ details .ans{padding:0 50px 24px 0;color:var(--g700);font-size:17px;line-height:
     </div>
   </section>
 
-  <!-- CONCEPTS (hidden until SHOW_EXAMPLES is true in the script at the bottom) -->
+  <!-- EXAMPLES (hidden until SHOW_EXAMPLES is true in the script at the bottom) -->
   <section class="sec" id="examples" aria-labelledby="h-ex" data-examples hidden>
     <div class="head">
-      <h2 id="h-ex"><span class="dim">Concept designs</span>for professional firms.</h2>
-      <p class="lead">Two concept sites I built to show what clearer positioning can look like for a professional firm. They are <b>concepts, not client sites</b>, and they show no results or testimonials.</p>
+      <h2 id="h-ex"><span class="dim">Examples</span>of my work.</h2>
+      <p class="lead">Two sites I designed and built, so you can judge the standard for yourself. They are <b>concept designs, not client sites</b>. On a call I can also show you a quick concept for your own firm.</p>
     </div>
     <div class="grid2">
       <article class="card concept">
-        <div class="car" data-car role="group" aria-roledescription="carousel" aria-label="Screens from the legal concept">
+        <div class="car" data-car role="group" aria-roledescription="carousel" aria-label="Screens from the legal technology advisory concept">
           <div class="car-track" tabindex="0">
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/professional-firms/aegis-1" alt="Concept design of a legal services website, home page" loading="lazy"></div><figcaption>Home page</figcaption></figure>
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="shot"><svg><use href="#w-services"/></svg><img data-base="/assets/professional-firms/aegis-2" alt="Concept design, practice areas page" loading="lazy"></div><figcaption>Practice areas</figcaption></figure>
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="shot"><svg><use href="#w-form"/></svg><img data-base="/assets/professional-firms/aegis-3" alt="Concept design, enquiry page" loading="lazy"></div><figcaption>Enquiry</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/work/aegis-1" alt="Concept design of a legal technology advisory firm, home page" loading="lazy"></div><figcaption>Home page</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="shot"><svg><use href="#w-services"/></svg><img data-base="/assets/work/aegis-2" alt="Concept design, services and case studies" loading="lazy"></div><figcaption>Services and case studies</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="shot"><svg><use href="#w-form"/></svg><img data-base="/assets/work/aegis-3" alt="Concept design, consultation booking section" loading="lazy"></div><figcaption>Book a consultation</figcaption></figure>
           </div>
           <div class="car-ui"><div class="dots"></div><div class="arrows"></div></div>
         </div>
         <div class="meta">
           <span class="lab">Concept design</span>
-          <h3>Legal services</h3> <!-- EDIT: use the real name or focus of this demo -->
+          <h3>Legal technology advisory firm</h3>
           <div class="k">Starting point</div>
-          <p class="s">A firm whose strengths were not obvious to a first-time visitor.</p> <!-- EDIT: match your demo -->
-          <div class="k">What the concept changes</div>
-          <ul class="checks"> <!-- EDIT: match your demo -->
-            <li><svg><use href="#chk"/></svg>Practice areas explained in plain language</li>
-            <li><svg><use href="#chk"/></svg>An enquiry page that asks a few useful questions</li>
-            <li><svg><use href="#chk"/></svg>Team profiles that build credibility</li>
+          <p class="s">A professional firm with several services, where a visitor needs to understand quickly who it helps and how to get in touch.</p>
+          <div class="k">What the design does</div>
+          <ul class="checks">
+            <li><svg><use href="#chk"/></svg>Services and industries organised so a visitor finds theirs fast</li>
+            <li><svg><use href="#chk"/></svg>Case studies and insights that build credibility</li>
+            <li><svg><use href="#chk"/></svg>A clear “Book a consultation” action in the navigation and at the end of the page</li>
           </ul>
-          <a class="go" href="https://aegislegal.vercel.app/" target="_blank" rel="noopener">View the concept <span aria-hidden="true">↗</span></a>
+          <a class="go" href="https://aegislegal.vercel.app/" target="_blank" rel="noopener">View the site <span aria-hidden="true">↗</span></a>
         </div>
       </article>
 
       <article class="card concept">
-        <div class="car" data-car role="group" aria-roledescription="carousel" aria-label="Screens from the consulting concept">
+        <div class="car" data-car role="group" aria-roledescription="carousel" aria-label="Screens from the fintech product concept">
           <div class="car-track" tabindex="0">
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/professional-firms/consulting-1" alt="Concept design of a consulting firm website, home page" loading="lazy"></div><figcaption>Home page</figcaption></figure>
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="shot"><svg><use href="#w-services"/></svg><img data-base="/assets/professional-firms/consulting-2" alt="Concept design, services page" loading="lazy"></div><figcaption>Services</figcaption></figure>
-            <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="shot"><svg><use href="#w-reviews"/></svg><img data-base="/assets/professional-firms/consulting-3" alt="Concept design, approach and proof section" loading="lazy"></div><figcaption>Approach</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><div class="shot"><svg><use href="#wire"/></svg><img data-base="/assets/work/valta-1" alt="Concept design of a fintech product website, home page" loading="lazy"></div><figcaption>Home page</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><div class="shot"><svg><use href="#w-services"/></svg><img data-base="/assets/work/valta-2" alt="Concept design, how it works section" loading="lazy"></div><figcaption>How it works</figcaption></figure>
+            <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><div class="shot"><svg><use href="#w-reviews"/></svg><img data-base="/assets/work/valta-3" alt="Concept design, pricing and call to action" loading="lazy"></div><figcaption>Pricing</figcaption></figure>
           </div>
           <div class="car-ui"><div class="dots"></div><div class="arrows"></div></div>
         </div>
         <div class="meta">
           <span class="lab">Concept design</span>
-          <h3>Consulting firm</h3> <!-- EDIT: use the real name or focus of this demo -->
+          <h3>Fintech product</h3>
           <div class="k">Starting point</div>
-          <p class="s">A firm with strong expertise but a site that did not explain who it helps.</p> <!-- EDIT: match your demo -->
-          <div class="k">What the concept changes</div>
-          <ul class="checks"> <!-- EDIT: match your demo -->
-            <li><svg><use href="#chk"/></svg>A clear statement of who the firm serves</li>
-            <li><svg><use href="#chk"/></svg>Services structured so a visitor finds theirs fast</li>
-            <li><svg><use href="#chk"/></svg>An approach section that shows how the work is done</li>
+          <p class="s">A complex, technical offer that had to be explained clearly to a business buyer.</p>
+          <!-- EDIT: fix the empty FAQ and the # links on the Valta site before you show this card -->
+          <div class="k">What the design does</div>
+          <ul class="checks">
+            <li><svg><use href="#chk"/></svg>The problem, the solution and how it works laid out in plain steps</li>
+            <li><svg><use href="#chk"/></svg>A comparison table that shows what makes it different</li>
+            <li><svg><use href="#chk"/></svg>Pricing and a clear next step</li>
           </ul>
-          <a class="go" href="https://EDIT-your-consulting-demo-link.example" target="_blank" rel="noopener">View the concept <span aria-hidden="true">↗</span></a>
+          <a class="go" href="https://valtaai.vercel.app/" target="_blank" rel="noopener">View the site <span aria-hidden="true">↗</span></a>
         </div>
       </article>
     </div>
-    <p class="note tiny" style="margin-top:22px">Concept designs are built to show an idea and are not affiliated with, or endorsed by, any real firm.</p>
+    <p class="note tiny" style="margin-top:22px">These are concept designs built to show an idea. They are not affiliated with, or endorsed by, any real business, and they show no client results.</p>
   </section>
 
   <!-- WALKTHROUGH VIDEO (hidden until VIDEO_URL is set in the script at the bottom) -->
